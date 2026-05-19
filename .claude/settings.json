@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "CLAUDE_PLUGIN_ROOT=/home/user/humanizer/.claude/plugins/superpowers bash /home/user/humanizer/.claude/plugins/superpowers/hooks/session-start"
+          }
+        ]
+      }
+    ]
+  }
+}
